@@ -21,8 +21,8 @@ public abstract class PlayerTierHeadVisibilityMixin {
 
         if (avatar instanceof Player player &&
             PvpTiersClient.getRank(
-                player.getGameProfile().getName()
-            ) != null) {
+    player.getName().getString()
+ ) != null
             cir.setReturnValue(true);
         }
     }

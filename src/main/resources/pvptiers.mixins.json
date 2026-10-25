@@ -1,9 +1,11 @@
+
 {
   "required": true,
   "package": "com.pvptiers.mod.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "PlayerTierNametagMixin"
+    "PlayerTierNametagMixin",
+    "PlayerTierHeadVisibilityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

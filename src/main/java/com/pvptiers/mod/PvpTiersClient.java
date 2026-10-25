@@ -38,7 +38,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public final class PvpTiersClient implements ClientModInitializer {
     public static final String OWNER = "Asthi0LT3";
     public static final String[] TIERS = {"LT5", "HT5", "LT4", "HT4", "LT3", "HT3", "LT2", "HT2", "LT1", "HT1"};
-    import net.minecraft.resources.Identifier;
+    public static final FontDescription ICON_FONT = new FontDescription.Resource(Identifier.fromNamespaceAndPath("pvptiers", "icons"));
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static final Path CONFIG_FILE = FabricLoader.getInstance().getConfigDir().resolve("pvptiers-client.json");
     private static final HttpClient HTTP = HttpClient.newBuilder().followRedirects(HttpClient.Redirect.NORMAL).build();

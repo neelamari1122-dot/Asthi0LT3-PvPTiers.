@@ -1,0 +1,10 @@
+ASTHI0LT3 PVP TIERS / MINECRAFT JAVA 1.21.11
+
+THIS ZIP IS SOURCE CODE, NOT AN INSTALLABLE MOD JAR.
+
+To get the actual JAR, upload this project's CONTENTS to a GitHub repository,
+open Actions -> Build Asthi0LT3 PvP Tiers for 1.21.11 -> Run workflow,
+and download the artifact when the build succeeds.
+
+Minecraft 1.21.11; Java 21; Fabric Loader; Fabric API for 1.21.11.
+Only Asthi0LT3 with a private GitHub Gist token can publish official tiers.

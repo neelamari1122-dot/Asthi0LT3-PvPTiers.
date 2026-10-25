@@ -19,11 +19,11 @@ public abstract class PlayerTierHeadVisibilityMixin {
             double distance,
             CallbackInfoReturnable<Boolean> cir) {
 
+       
         if (avatar instanceof Player player &&
-            PvpTiersClient.getRank(
-    player.getName().getString()
- ) != null
+            PvpTiersClient.getRank(player.getName().getString()) != null) {
             cir.setReturnValue(true);
+        }
         }
     }
 }

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.pvptiers.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerTierNametagMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -28,6 +28,6 @@ public abstract class PlayerTierNametagMixin {
             ? Component.literal(String.valueOf(mode.icon)).withStyle(style -> style.withFont(PvpTiersClient.ICON_FONT))
             : Component.empty();
         Component label=Component.literal(" " + mode.display + " [" + tier + "] ").withStyle(ChatFormatting.AQUA);
-        cir.setReturnValue(icon.copy().append(label).append(cir.getReturnValue().copy()));
+        cir.setReturnValue(Component.empty().append(icon).append(label).append(cir.getReturnValue().copy()));
     }
 }
